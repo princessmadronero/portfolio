@@ -251,4 +251,69 @@ footer {
     font-size: 40px;
     margin-bottom: 8px;
 }
+.certificates-page {
+    background: #ffe6f0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.cert-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.cert-card {
+    background: #ffe6f0;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 12px rgba(255, 153, 204, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cert-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 102, 178, 0.6);
+}
+
+.cert-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.view-btn {
+    display: inline-block;
+    margin-top: 12px;
+    background: #b03060;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.view-btn:hover {
+    background: #ff66b2;
+    transform: scale(1.05);
+}
+.cert-icon {
+    font-size: 60px;
+    color: #b03060;
+    margin-bottom: 15px;
+}
+
 
