@@ -98,3 +98,223 @@ footer {
     font-size: 0.9rem;
     color: #666;
 }
+
+/* Navbar */
+.navbar {
+    background: #6a0dad; /* purple background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.nav-links li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.nav-links li a.active {
+    background: #fff;
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+/* Page Title */
+.header {
+    text-align: center;
+    padding: 30px;
+    background: #fdf6f0; /* soft beige grid background */
+}
+.header h1 {
+    font-size: 2rem;
+    color: #b03060;
+}
+
+/* About Section */
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #ff99cc;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 153, 204, 0.6);
+}
+
+.about-text h2 {
+    color: #b03060;
+    margin-bottom: 15px;
+}
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #ff99cc;
+    margin-top: 30px;
+}
+.footer-links a {
+    margin: 0 12px;
+    color: #b03060;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    color: #ff66b2;
+}
+.footer-copy {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Global Theme */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffe6f0; /* light pink background */
+    color: #333;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #ff99cc; /* pink accent */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+.nav-links li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.nav-links li a.active {
+    background: #fff;
+    color: #ff66b2;
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+}
+.header h1 {
+    font-size: 2rem;
+    color: #b03060;
+}
+
+/* About Section */
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
+}
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #ff99cc;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 153, 204, 0.6);
+}
+.about-text h2 {
+    color: #b03060;
+    margin-bottom: 15px;
+}
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #ff99cc;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+.footer-links a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.footer-links a:hover {
+    color: #ffe6f0;
+}
+.footer-copy {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
