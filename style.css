@@ -147,6 +147,7 @@ footer {
     font-size: 0.9rem;
     color: #fff;
 }
+
 .contact-page {
     background: #ffe6f0;
     font-family: 'Segoe UI', sans-serif;
@@ -155,7 +156,6 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
 .contact-container {
     max-width: 600px;
     margin: 40px auto;
@@ -165,14 +165,12 @@ footer {
     box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
     text-align: center;
 }
-
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
 }
-
 .icon {
     display: inline-block;
     background: #ff99cc;
@@ -183,18 +181,15 @@ footer {
     text-decoration: none;
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .icon:hover {
     transform: scale(1.1);
     box-shadow: 0 0 12px rgba(255, 153, 204, 0.8);
 }
-
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-
 .contact-form input,
 .contact-form textarea {
     padding: 12px;
@@ -202,7 +197,6 @@ footer {
     border-radius: 8px;
     font-size: 1rem;
 }
-
 .contact-form button {
     background: #ff99cc;
     color: #fff;
@@ -213,18 +207,17 @@ footer {
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
 }
-
 .contact-form button:hover {
     background: #ff66b2;
     transform: scale(1.05);
 }
+
 .stack-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
     text-align: center;
 }
-
 .stack-item {
     display: flex;
     flex-direction: column;
@@ -241,16 +234,15 @@ footer {
     transition: transform 0.3s, box-shadow 0.3s;
     margin: 0 auto;
 }
-
 .stack-item:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(255, 102, 178, 0.8);
 }
-
 .stack-icon {
     font-size: 40px;
     margin-bottom: 8px;
 }
+
 .certificates-page {
     background: #ffe6f0;
     font-family: 'Segoe UI', sans-serif;
@@ -267,13 +259,11 @@ footer {
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 153, 204, 0.3);
 }
-
 .cert-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
-
 .cert-card {
     background: #ffe6f0;
     border-radius: 12px;
@@ -282,18 +272,15 @@ footer {
     box-shadow: 0 0 12px rgba(255, 153, 204, 0.4);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .cert-card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(255, 102, 178, 0.6);
 }
-
 .cert-logo {
     width: 60px;
     height: 60px;
     margin-bottom: 15px;
 }
-
 .view-btn {
     display: inline-block;
     margin-top: 12px;
@@ -305,7 +292,6 @@ footer {
     font-weight: bold;
     transition: background 0.3s, transform 0.3s;
 }
-
 .view-btn:hover {
     background: #ff66b2;
     transform: scale(1.05);
@@ -316,4 +302,63 @@ footer {
     margin-bottom: 15px;
 }
 
+/* Tablet view */
+@media (max-width: 992px) {
+    .about-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+    .intro-buttons {
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
 
+/* Mobile view */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-container {
+        padding: 20px;
+    }
+
+    .cert-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stack-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+
+    .stack-item {
+        width: 90px;
+        height: 90px;
+        font-size: 0.8rem;
+    }
+
+    .stack-icon {
+        font-size: 28px;
+    }
+
+    .contact-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
